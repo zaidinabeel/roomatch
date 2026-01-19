@@ -10,10 +10,10 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { useAuth } from '../src/context/AuthContext';
-import { Button } from '../src/components/Button';
-import { Input } from '../src/components/Input';
-import { colors, spacing, typography, borderRadius } from '../src/constants/theme';
+import { useAuth } from '../../src/context/AuthContext';
+import { Button } from '../../src/components/Button';
+import { Input } from '../../src/components/Input';
+import { colors, spacing, typography, borderRadius } from '../../src/constants/theme';
 
 const PROFESSIONS = [
   'IT Professional', 'Healthcare Worker', 'Teacher', 'Engineer',
